@@ -9,75 +9,75 @@ import SwiftUI
 
 struct IntrestGuide: View {
     var body: some View {
-        VStack(){
-            HStack(){
+        VStack {
+            HStack {
                 Text("IT")
                     .fontWeight(.semibold)
                 Circle()
                     .fill(Color("IT"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("Swift - Overclocking- Web Development")
                     .foregroundColor(Color("IT"))
             }
-            HStack(){
+            HStack {
             Text("Sports")
                 .fontWeight(.semibold)
                 Circle()
                     .fill(Color("Sports"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("Marathons - Swimming - Golf")
                     .foregroundColor(Color("Sports"))
-                
+
             }
-            HStack(){
+            HStack {
             Text("Music")
                 .fontWeight(.semibold)
                 Circle()
                     .fill(Color("Music"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("808 - Gituar - Violin")
                     .foregroundColor(Color("Music"))
-                
+
             }
-            HStack(){
+            HStack {
             Text("Outdoors")
                 .fontWeight(.semibold)
                 Circle()
                     .fill(Color("Outdoors"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("Bushcraft - Travelling - Fishing")
                     .foregroundColor(Color("Outdoors"))
-                
+
             }
-            HStack(){
+            HStack {
             Text("Extreme")
                 .fontWeight(.semibold)
                 Circle()
                     .fill(Color("Extreme"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("Skydiving - Downhill biking - Motocross")
                     .foregroundColor(Color("Extreme"))
-                
+
             }
-            HStack(){
+            HStack {
             Text("Calm")
                 .fontWeight(.semibold)
                 Circle()
                     .fill(Color("Calm"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("Crocheting - Collecting stamps - Chess")
                     .foregroundColor(Color("Calm"))
-                
+
             }
-            HStack(){
+            HStack {
             Text("Art")
                 .fontWeight(.semibold)
                 Circle()
                     .fill(Color("Art"))
-                    .frame(width: 34, height: 34, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: 34, height: 34, alignment: .center/*@END_MENU_TOKEN@*/)
                 Text("Painting - Photography - Custom clothes")
                     .foregroundColor(Color("Art"))
-                
+
             }
         }
             }

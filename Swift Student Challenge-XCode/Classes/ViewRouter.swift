@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+class ViewRouter: ObservableObject {
+    @Published var selectedView: Page = .MainMenu
+}
+enum Page {
+    case MainMenu
+    case HowToPlayView
+    case GameIntroduction1
+    case GameIntroduction2
+    case GameIntroduction3
+    case GameView
+}

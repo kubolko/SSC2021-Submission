@@ -11,7 +11,7 @@ import SwiftUI
 struct Swift_Student_Challenge_XCodeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(ViewRouter())
         }
     }
 }

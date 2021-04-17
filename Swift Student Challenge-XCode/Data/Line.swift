@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import SpriteKit
+
+struct Line {
+    var line: SKShapeNode
+    var start: CGPoint
+    var end: CGPoint
+}

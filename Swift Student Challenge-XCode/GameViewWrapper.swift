@@ -6,10 +6,21 @@
 //
 
 import SwiftUI
+import SpriteKit
 
 struct GameViewWrapper: View {
+
+    var GameView: SKScene {
+        let scene = GameScene()
+        scene.backgroundColor = UIColor(named: "USAFABlue")!
+        scene.size = CGSize(width: UIScreen.screenWidth, height: UIScreen.screenHeight)
+        scene.scaleMode = .aspectFit
+        return scene
+    }
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        SpriteView(scene: GameView)
+            .ignoresSafeArea()
     }
 }
 
