@@ -21,6 +21,9 @@ struct GameViewWrapper: View {
     var body: some View {
         SpriteView(scene: GameView)
             .ignoresSafeArea()
+            .onAppear(perform: {
+                print(self.GameView.size)
+            })
     }
 }
 
