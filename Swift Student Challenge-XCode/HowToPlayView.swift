@@ -34,13 +34,6 @@ struct HowToPlayView: View {
         scene.scaleMode = .aspectFill
         return scene
     }
-    var guidingScene3: SKScene {
-        let scene = GuidingScene3()
-        scene.backgroundColor = UIColor(named: "USAFABlue")!
-        scene.size = CGSize(width: 800, height: 800)
-        scene.scaleMode = .aspectFill
-        return scene
-    }
     var guidingScene4: SKScene {
         let scene = GuidingScene4()
         scene.backgroundColor = UIColor(named: "USAFABlue")!
@@ -99,18 +92,7 @@ struct HowToPlayView: View {
                             .frame(width: 400, height: 450)
                             .ignoresSafeArea()
                     }
-                    Text("To avoid connecting to other people network use servers.")
-                        .font(.system(size: 36))
-                        .fontWeight(.medium)
-                        .frame(width: 400.0)
-                    HStack {
-                        Image(systemName: "hand.thumbsup.fill")
-                            .padding()
-                        SpriteView(scene: guidingScene3)
-                            .frame(width: 400, height: 450)
-                            .ignoresSafeArea()
-                    }
-                    Text("Or people")
+                    Text("Avoid connecting to other people network.")
                         .font(.system(size: 36))
                         .fontWeight(.medium)
                         .frame(width: 400.0)
@@ -121,6 +103,10 @@ struct HowToPlayView: View {
                             .frame(width: 400, height: 450)
                             .ignoresSafeArea()
                     }
+                    Button {
+                        viewRouter.selectedView = .MainMenu
+                        print(viewRouter.selectedView)
+                    }label: {
                     ZStack {
                         Rectangle()
                             .fill(Color("DarkCornflower"))
@@ -132,11 +118,9 @@ struct HowToPlayView: View {
                             .font(.system(size: 14))
                             .multilineTextAlignment(.center)
                             .frame(width: 100, height: 40, alignment: .center)
-
-                    }.padding()
-                    //                SpriteView(scene: guidingScene5)
-                    //                    .frame(width: 100, height: 150)
-                    //                    .ignoresSafeArea()
+                    }
+                    }.buttonStyle(PlainButtonStyle())
+                    .padding()
                 }
             }
         }

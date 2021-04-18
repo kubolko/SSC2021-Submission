@@ -103,13 +103,11 @@ class SpriteKitClass {
         yourline.lineWidth = 1
         yourline.strokeColor = color
         return yourline
-        // MARK: SKrócić linie- done
     }
     
     func generateServer(color: UIColor) -> SKSpriteNode {
         let largeConfig = UIImage.SymbolConfiguration(pointSize: 64, weight: .medium, scale: .default)
         let serverIcon = UIImage(systemName: "antenna.radiowaves.left.and.right", withConfiguration: largeConfig)
-        //        serverIcon?.size = CGSize(width: 64, height: 64)
         let serverIconColored = serverIcon!.withColor(color)
         let serverTexture = SKTexture(image: serverIconColored)
         let serverSKNode = SKSpriteNode(texture: serverTexture)

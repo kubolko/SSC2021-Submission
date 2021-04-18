@@ -29,7 +29,7 @@ class GameScene: SKScene {
         didSet {
             self.timer.text = "Time left: \(self.counter) ⏳"
             if currentLevel >= 3{
-                self.timer.text = "You are getting realy good at it 😉 \n Time: \(self.counter)"
+                self.timer.text = "You are getting really good at it 😉 \n Time: \(self.counter)"
             }
             if currentLevel >= 5{
                 self.timer.text = "Omg you seem to be smarter than Siri \n Time: \(self.counter)"

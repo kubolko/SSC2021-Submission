@@ -1,5 +1,5 @@
 //
-//  GuidingScene2.swift
+//  GuidingScene3.swift
 //  Swift Student Challenge-XCode
 //
 //  Created by Jakub Sumionka on 06/04/2021.
@@ -15,24 +15,35 @@ class GuidingScene2: SKScene {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         removeAllChildren()
 
-        let upperLeft = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 4, y: 3 * self.size.height / 4), scale: 0.8, color: "IT")
+        let x2y4 = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: 2 * self.size.width / 5, y: 4 * self.size.height / 5), scale: 0.8, color: "IT")
 
-        let upperRight = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: 3 * self.size.width / 4, y: 3 * self.size.height / 4), scale: 0.8, color: "Calm")
+        let x3y3 = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: 3 * self.size.width / 5, y: 3 * self.size.height / 5), scale: 0.8, color: "IT")
 
-        let lowerLeft = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 4, y: self.size.height / 4), scale: 0.8, color: "Calm")
+        let x1y2 = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 5, y: 2 * self.size.height / 5), scale: 0.8, color: "Calm")
+ 
+        let x4y1 = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: 4.25 * self.size.width / 5, y: self.size.height / 5), scale: 0.8, color: "Calm")
+        x4y1.position = CGPoint(x: 4.25 * self.size.width / 5, y: self.size.height / 5)
 
-        let lowerRight = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: 3 * self.size.width / 4, y: self.size.height / 4), scale: 0.8, color: "IT")
 
-        let upperLeftLowerRightConnection = SpriteKitClass.main.drawLine(point1: upperLeft.position, point2: lowerRight.position, color: UIColor(named: upperLeft.name!)!)
+        let x4y4 = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: 4 * self.size.width / 5, y: 4 * self.size.height / 5), scale: 0.8, color: "Calm")
 
-        let upperRightLowerLeftConnection = SpriteKitClass.main.drawLine(point1: upperRight.position, point2: lowerLeft.position, color: UIColor(named: upperRight.name!)!)
+        let x2y4tox3y3 = SpriteKitClass.main.drawLine(point1: x2y4.position, point2: x3y3.position, color: UIColor(named: x2y4.name!)!)
 
-        addChild(upperLeft)
-        addChild(upperRight)
-        addChild(lowerLeft)
-        addChild(lowerRight)
-        addChild(upperLeftLowerRightConnection)
-        addChild(upperRightLowerLeftConnection)
+        let x1y2tox4y1 = SpriteKitClass.main.drawLine(point1: x1y2.position, point2: x4y1.position, color: UIColor(named: x1y2.name!)!)
+
+        let x4y4tox4y1 = SpriteKitClass.main.drawLine(point1: x4y4.position, point2: x4y1.position, color: UIColor(named: x4y4.name!)!)
+        
+        let x1y2tox4y4 =  SpriteKitClass.main.drawLine(point1: x1y2.position, point2: x4y4.position, color: UIColor(.red))
+
+        addChild(x2y4)
+        addChild(x3y3)
+        addChild(x1y2)
+        addChild(x4y4)
+        addChild(x4y1)
+        addChild(x2y4tox3y3)
+        addChild(x1y2tox4y1)
+        addChild(x4y4tox4y1)
+        addChild(x1y2tox4y4)
 
 }
 }

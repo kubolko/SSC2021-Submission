@@ -14,9 +14,8 @@
 		82149E25262AE13C001A3797 /* Rain.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82149E24262AE13C001A3797 /* Rain.xcassets */; };
 		82149E54262AE484001A3797 /* BackgroundSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82149E53262AE484001A3797 /* BackgroundSender.swift */; };
 		82189AD0261CBC1100DCB0D6 /* GuidingScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82189ACF261CBC1100DCB0D6 /* GuidingScene1.swift */; };
-		82189AD8261CE41400DCB0D6 /* GuidingScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82189AD7261CE41400DCB0D6 /* GuidingScene2.swift */; };
 		82189ADD261CE59400DCB0D6 /* SpriteKitClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82189ADC261CE59400DCB0D6 /* SpriteKitClass.swift */; };
-		82189AE1261CECB300DCB0D6 /* GuidingScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82189AE0261CECB300DCB0D6 /* GuidingScene3.swift */; };
+		82189AE1261CECB300DCB0D6 /* GuidingScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82189AE0261CECB300DCB0D6 /* GuidingScene2.swift */; };
 		821F5BB8261F8FAD00002453 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F5BB7261F8FAD00002453 /* MainMenuView.swift */; };
 		821F5BBB261F91A000002453 /* GameIntroduction1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F5BBA261F91A000002453 /* GameIntroduction1.swift */; };
 		821F5BBE261F925300002453 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821F5BBD261F925300002453 /* QuoteView.swift */; };
@@ -53,9 +52,8 @@
 		82149E24262AE13C001A3797 /* Rain.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Rain.xcassets; sourceTree = "<group>"; };
 		82149E53262AE484001A3797 /* BackgroundSender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSender.swift; sourceTree = "<group>"; };
 		82189ACF261CBC1100DCB0D6 /* GuidingScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingScene1.swift; sourceTree = "<group>"; };
-		82189AD7261CE41400DCB0D6 /* GuidingScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingScene2.swift; sourceTree = "<group>"; };
 		82189ADC261CE59400DCB0D6 /* SpriteKitClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitClass.swift; sourceTree = "<group>"; };
-		82189AE0261CECB300DCB0D6 /* GuidingScene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingScene3.swift; sourceTree = "<group>"; };
+		82189AE0261CECB300DCB0D6 /* GuidingScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingScene2.swift; sourceTree = "<group>"; };
 		821F5BB7261F8FAD00002453 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		821F5BBA261F91A000002453 /* GameIntroduction1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIntroduction1.swift; sourceTree = "<group>"; };
 		821F5BBD261F925300002453 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
@@ -115,8 +113,7 @@
 				824ECDE12621DFE0008DB9E2 /* GameView.swift */,
 				821F98542619019A008BC2E1 /* SamplePersonScene.swift */,
 				82189ACF261CBC1100DCB0D6 /* GuidingScene1.swift */,
-				82189AD7261CE41400DCB0D6 /* GuidingScene2.swift */,
-				82189AE0261CECB300DCB0D6 /* GuidingScene3.swift */,
+				82189AE0261CECB300DCB0D6 /* GuidingScene2.swift */,
 				82DEB89F261E2392009B2FC8 /* GuidingScene4.swift */,
 				82DEB8A2261E2D80009B2FC8 /* GuidingScene5.swift */,
 			);
@@ -301,11 +298,10 @@
 				8224973126286A0A0095AB0A /* DialogMenu.swift in Sources */,
 				82FC86B226289E9500F277F4 /* NextLevelScene.swift in Sources */,
 				82149E21262AE0C6001A3797 /* RainBackground.swift in Sources */,
-				82189AD8261CE41400DCB0D6 /* GuidingScene2.swift in Sources */,
 				824ECDE22621DFE0008DB9E2 /* GameView.swift in Sources */,
 				82189AD0261CBC1100DCB0D6 /* GuidingScene1.swift in Sources */,
 				821F984C2618E7B3008BC2E1 /* Extentions.swift in Sources */,
-				82189AE1261CECB300DCB0D6 /* GuidingScene3.swift in Sources */,
+				82189AE1261CECB300DCB0D6 /* GuidingScene2.swift in Sources */,
 				82D9F837261B80C30038F93A /* ObservableClass.swift in Sources */,
 				821F98552619019A008BC2E1 /* SamplePersonScene.swift in Sources */,
 			);

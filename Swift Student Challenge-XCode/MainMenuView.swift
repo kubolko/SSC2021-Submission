@@ -14,11 +14,8 @@ struct MainMenuView: View {
 
     var body: some View {
         ZStack {
-
-//                .ignoresSafeArea()
-  //          BackgroundSender()
             VStack {
-                Text("Don't Bore")
+                Text("Never Bore")
                     .font(.system(size: 72))
                     .fontWeight(.bold)
                 Button {
