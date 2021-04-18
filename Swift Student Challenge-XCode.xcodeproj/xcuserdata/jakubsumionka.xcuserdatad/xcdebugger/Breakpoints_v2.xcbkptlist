@@ -14,8 +14,8 @@
             filePath = "Swift Student Challenge-XCode/SKScenes/GameView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "314"
-            endingLineNumber = "314"
+            startingLineNumber = "346"
+            endingLineNumber = "346"
             landmarkName = "generateNewLevel(newIntrest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "Swift Student Challenge-XCode/SKScenes/GameView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "256"
-            endingLineNumber = "256"
+            startingLineNumber = "288"
+            endingLineNumber = "288"
             landmarkName = "redrawLines()"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "Swift Student Challenge-XCode/SKScenes/GameView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "283"
-            endingLineNumber = "283"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
             landmarkName = "redrawLines()"
             landmarkType = "7">
          </BreakpointContent>
