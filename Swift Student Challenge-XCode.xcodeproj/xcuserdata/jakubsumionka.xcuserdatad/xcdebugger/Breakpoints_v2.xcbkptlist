@@ -7,31 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "F8560962-8EF1-48D7-A0FF-B99EC16AC787"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Swift Student Challenge-XCode/Classes/SpriteKitClass.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
-            landmarkName = "generateperson(toView:location:scale:color:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A261068A-C5F1-4EF6-B72C-DA2EF209E597"
+            uuid = "6F8676AE-7024-4ED5-A932-9B735A9D4A7E"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift Student Challenge-XCode/SKScenes/GameView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "270"
-            endingLineNumber = "270"
+            startingLineNumber = "314"
+            endingLineNumber = "314"
             landmarkName = "generateNewLevel(newIntrest:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,31 +23,31 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A27DDE4F-6340-4C7F-8385-5F7EA80CC394"
+            uuid = "8472F24D-06A5-4904-B1FD-479FC638E7B9"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Swift Student Challenge-XCode/Classes/SpriteKitClass.swift"
+            filePath = "Swift Student Challenge-XCode/SKScenes/GameView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "generateperson(toView:location:scale:color:)"
+            startingLineNumber = "256"
+            endingLineNumber = "256"
+            landmarkName = "redrawLines()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E94EB444-C32D-49A1-A9F6-EE868995CDD7"
-            shouldBeEnabled = "Yes"
+            uuid = "CF1AFB1F-F78D-4F96-B9EC-6E4CFC2B89B6"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Swift Student Challenge-XCode/SKScenes/GameView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "206"
-            endingLineNumber = "206"
+            startingLineNumber = "283"
+            endingLineNumber = "283"
             landmarkName = "redrawLines()"
             landmarkType = "7">
          </BreakpointContent>

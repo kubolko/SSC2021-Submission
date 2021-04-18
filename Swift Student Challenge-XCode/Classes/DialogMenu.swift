@@ -45,7 +45,7 @@ class DialogMenu: SKNode{
     }
     
     func leftSideImage() -> SKSpriteNode{
-        let spritenode = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: -118, y: -17), scale: 0.25, color: nil)
+        let spritenode = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: -118, y: -17), scale: 0.25, color: "Random")
         spritenode.zPosition = 3
         return spritenode
     }
@@ -54,7 +54,7 @@ class DialogMenu: SKNode{
         let leftSideButtonOverlap = SKShapeNode(rect: CGRect(x: -181, y: 39, width: 150, height: 50), cornerRadius: 20)
         leftSideButtonOverlap.fillColor = UIColor(named: "RomanSilver")!
         leftSideButtonOverlap.strokeColor = .clear
-        leftSideButtonOverlap.name = "LeftButton"
+   //     leftSideButtonOverlap.name = "LeftButton"
         leftSideButtonOverlap.zPosition = 3
         return leftSideButtonOverlap
     }
@@ -85,7 +85,7 @@ class DialogMenu: SKNode{
         let rightSideButtonOverlap = SKShapeNode(rect: CGRect(x: 35, y: 39, width: 150, height: 50), cornerRadius: 20)
         rightSideButtonOverlap.fillColor = UIColor(named: "RomanSilver")!
         rightSideButtonOverlap.strokeColor = .clear
-        rightSideButtonOverlap.name = "RightButton"
+   //     rightSideButtonOverlap.name = "RightButton"
         rightSideButtonOverlap.zPosition = 3
         return rightSideButtonOverlap
     }

@@ -12,13 +12,17 @@ class SpriteKitClass {
     static let main = SpriteKitClass()
     
 
-    func generateperson(toView: SKView, location: CGPoint, scale: CGFloat, color: String?) -> SKSpriteNode {
-        
-        let optionalColor = HobbiesString.randomElement()
-        
+    func generateperson(toView: SKView, location: CGPoint, scale: CGFloat, color: String) -> SKSpriteNode {
+    
         let name = randomnames.randomElement()!
-        let hobbyType = color
-        let hobby = Hobbies[HobbiesString.firstIndex(of: (color ?? optionalColor)!)!].randomElement()
+        var unwrappedColor : String
+        if color == "Random"{
+            unwrappedColor = HobbiesString.randomElement()!
+        }
+        else{
+            unwrappedColor = color 
+        }
+        let hobby = Hobbies[HobbiesString.firstIndex(of: unwrappedColor)!].randomElement()
         let largeConfig = UIImage.SymbolConfiguration(pointSize: 64, weight: .medium, scale: .default)
         
         let head = SKSpriteNode(imageNamed: "Head\(Int.random(in: 1...5))")
@@ -30,7 +34,7 @@ class SpriteKitClass {
         let nameAndHobby = SKLabelNode(fontNamed: "SFProDisplay-Medium")
         let intrestColor = SKShapeNode(circleOfRadius: 20)
         let connection = UIImage(systemName: "wifi", withConfiguration: largeConfig)
-        let connectionColored = connection!.withColor(UIColor(named: (color ?? optionalColor)!)!)
+        let connectionColored = connection!.withColor(UIColor(named: unwrappedColor)!)
         let connectionTexture = SKTexture(image: connectionColored)
         let connectionSKNode = SKSpriteNode(texture: connectionTexture)
         
@@ -53,7 +57,7 @@ class SpriteKitClass {
         shoe.position = location
         
         nameAndHobby.numberOfLines = 2
-        nameAndHobby.text = "\(name) \n \(String(describing: hobby))"
+        nameAndHobby.text = "\(name) \n \(String(hobby!))"
         
         // TODO: Naprawić to gówno
         //    MainClass.shared.gainData(string1: name, string2: hobby)
@@ -65,7 +69,7 @@ class SpriteKitClass {
         nameAndHobby.lineBreakMode = NSLineBreakMode.byWordWrapping
         nameAndHobby.position = CGPoint(x: location.x, y: location.y - 140)
         
-        intrestColor.fillColor = UIColor(named: (color ?? optionalColor)!)!
+        intrestColor.fillColor = UIColor(named: unwrappedColor)!
         intrestColor.position = CGPoint(x: location.x, y: location.y - 200)
         
         connectionSKNode.position = CGPoint(x: location.x, y: location.y + 110)
@@ -75,7 +79,7 @@ class SpriteKitClass {
             sprite.position = location
             sprite.zPosition = 1
             sprite.setScale(scale)
-            sprite.name = color ?? hobbyType
+            sprite.name = unwrappedColor
             return sprite
         }
         return container as! SKSpriteNode
@@ -130,7 +134,7 @@ class SpriteKitClass {
         rectangle.zPosition = 3
         arr.append(rectangle)
         
-        let spritenode = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: -118, y: -17), scale: 0.1, color: nil)
+        let spritenode = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: -118, y: -17), scale: 0.1, color: "Random")
         spritenode.zPosition = 3
         arr.append(spritenode)
         let leftSideButtonOverlap = SKShapeNode(rect: CGRect(x: -181, y: 39, width: 150, height: 50), cornerRadius: 20)

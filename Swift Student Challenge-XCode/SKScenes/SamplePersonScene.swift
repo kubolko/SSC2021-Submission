@@ -16,12 +16,12 @@ class SamplePersonScene: SKScene {
     override func didMove(to: SKView) {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         removeAllChildren()
-        addChild(SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 2, y: self.size.height / 2), scale: 0.8, color: nil))
+        addChild(SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 2, y: self.size.height / 2), scale: 0.8, color: "Random"))
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         removeAllChildren()
-        addChild(SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 2, y: self.size.height / 2), scale: 0.8, color: nil))
+        addChild(SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 2, y: self.size.height / 2), scale: 0.8, color: "Random"))
         print("added child")
     }
 }

@@ -14,7 +14,7 @@ class GuidingScene5: SKScene {
     override func didMove(to view: SKView) {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame)
         removeAllChildren()
-        let center = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 2, y: self.size.height / 2), scale: 0.8, color: nil)
+        let center = SpriteKitClass.main.generateperson(toView: SKView(), location: CGPoint(x: self.size.width / 2, y: self.size.height / 2), scale: 0.8, color: "Random")
         addChild(center)
 
 }
