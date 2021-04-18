@@ -32,17 +32,69 @@
 		824ECDD22620E6DC008DB9E2 /* GameIntroduction2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ECDD12620E6DC008DB9E2 /* GameIntroduction2.swift */; };
 		824ECDD72620F88E008DB9E2 /* GameIntroduction3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ECDD62620F88E008DB9E2 /* GameIntroduction3.swift */; };
 		824ECDE22621DFE0008DB9E2 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ECDE12621DFE0008DB9E2 /* GameView.swift */; };
-		824ECE0826221A41008DB9E2 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ECE0726221A41008DB9E2 /* Levels.swift */; };
 		824ECE0E26222DAF008DB9E2 /* GameViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824ECE0D26222DAF008DB9E2 /* GameViewWrapper.swift */; };
 		824ECE11262232DE008DB9E2 /* Backlog.md in Resources */ = {isa = PBXBuildFile; fileRef = 824ECE10262232DD008DB9E2 /* Backlog.md */; };
+		829A9C9D262C5161001B1C78 /* MyPlayground.h in Headers */ = {isa = PBXBuildFile; fileRef = 829A9C9B262C5161001B1C78 /* MyPlayground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829A9CA0262C5161001B1C78 /* MyPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829A9C99262C5161001B1C78 /* MyPlayground.framework */; };
+		829A9CA1262C5161001B1C78 /* MyPlayground.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829A9C99262C5161001B1C78 /* MyPlayground.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		829A9CB6262C5246001B1C78 /* SSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829A9CAD262C5246001B1C78 /* SSC.framework */; };
+		829A9CBD262C5246001B1C78 /* SSCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A9CBC262C5246001B1C78 /* SSCTests.swift */; };
+		829A9CBF262C5246001B1C78 /* SSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 829A9CAF262C5246001B1C78 /* SSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		829A9CC2262C5246001B1C78 /* SSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 829A9CAD262C5246001B1C78 /* SSC.framework */; };
+		829A9CC3262C5246001B1C78 /* SSC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 829A9CAD262C5246001B1C78 /* SSC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		82D9F82A261B18030038F93A /* IntrestGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9F829261B18030038F93A /* IntrestGuide.swift */; };
 		82D9F831261B4D1E0038F93A /* Names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9F830261B4D1E0038F93A /* Names.swift */; };
 		82D9F834261B55940038F93A /* Hobbies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9F833261B55930038F93A /* Hobbies.swift */; };
 		82D9F837261B80C30038F93A /* ObservableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D9F836261B80C30038F93A /* ObservableClass.swift */; };
 		82DEB8A0261E2392009B2FC8 /* GuidingScene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DEB89F261E2392009B2FC8 /* GuidingScene4.swift */; };
 		82DEB8A3261E2D80009B2FC8 /* GuidingScene5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DEB8A2261E2D80009B2FC8 /* GuidingScene5.swift */; };
-		82FC86B226289E9500F277F4 /* NextLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FC86B126289E9500F277F4 /* NextLevelScene.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		829A9C9E262C5161001B1C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F982F2618E047008BC2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829A9C98262C5161001B1C78;
+			remoteInfo = MyPlayground;
+		};
+		829A9CB7262C5246001B1C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F982F2618E047008BC2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829A9CAC262C5246001B1C78;
+			remoteInfo = SSC;
+		};
+		829A9CB9262C5246001B1C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F982F2618E047008BC2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 821F98362618E048008BC2E1;
+			remoteInfo = "Swift Student Challenge-XCode";
+		};
+		829A9CC0262C5246001B1C78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 821F982F2618E047008BC2E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 829A9CAC262C5246001B1C78;
+			remoteInfo = SSC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		829A9CA5262C5161001B1C78 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				829A9CC3262C5246001B1C78 /* SSC.framework in Embed Frameworks */,
+				829A9CA1262C5161001B1C78 /* MyPlayground.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8213DC2E2626E3870052049A /* PersonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonNode.swift; sourceTree = "<group>"; };
@@ -72,16 +124,23 @@
 		824ECDD12620E6DC008DB9E2 /* GameIntroduction2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIntroduction2.swift; sourceTree = "<group>"; };
 		824ECDD62620F88E008DB9E2 /* GameIntroduction3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIntroduction3.swift; sourceTree = "<group>"; };
 		824ECDE12621DFE0008DB9E2 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
-		824ECE0726221A41008DB9E2 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
 		824ECE0D26222DAF008DB9E2 /* GameViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewWrapper.swift; sourceTree = "<group>"; };
 		824ECE10262232DD008DB9E2 /* Backlog.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Backlog.md; sourceTree = "<group>"; };
+		829A9C99262C5161001B1C78 /* MyPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829A9C9B262C5161001B1C78 /* MyPlayground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPlayground.h; sourceTree = "<group>"; };
+		829A9C9C262C5161001B1C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829A9CAD262C5246001B1C78 /* SSC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829A9CAF262C5246001B1C78 /* SSC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSC.h; sourceTree = "<group>"; };
+		829A9CB0262C5246001B1C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		829A9CB5262C5246001B1C78 /* SSCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		829A9CBC262C5246001B1C78 /* SSCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSCTests.swift; sourceTree = "<group>"; };
+		829A9CBE262C5246001B1C78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82D9F829261B18030038F93A /* IntrestGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntrestGuide.swift; sourceTree = "<group>"; };
 		82D9F830261B4D1E0038F93A /* Names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Names.swift; sourceTree = "<group>"; };
 		82D9F833261B55930038F93A /* Hobbies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hobbies.swift; sourceTree = "<group>"; };
 		82D9F836261B80C30038F93A /* ObservableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableClass.swift; sourceTree = "<group>"; };
 		82DEB89F261E2392009B2FC8 /* GuidingScene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingScene4.swift; sourceTree = "<group>"; };
 		82DEB8A2261E2D80009B2FC8 /* GuidingScene5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidingScene5.swift; sourceTree = "<group>"; };
-		82FC86B126289E9500F277F4 /* NextLevelScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextLevelScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +148,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				829A9CC2262C5246001B1C78 /* SSC.framework in Frameworks */,
+				829A9CA0262C5161001B1C78 /* MyPlayground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9C96262C5161001B1C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CAA262C5246001B1C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CB2262C5246001B1C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829A9CB6262C5246001B1C78 /* SSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +192,6 @@
 		82189ACE261CBBD200DCB0D6 /* SKScenes */ = {
 			isa = PBXGroup;
 			children = (
-				82FC86B126289E9500F277F4 /* NextLevelScene.swift */,
 				824ECDE12621DFE0008DB9E2 /* GameView.swift */,
 				821F98542619019A008BC2E1 /* SamplePersonScene.swift */,
 				82189ACF261CBC1100DCB0D6 /* GuidingScene1.swift */,
@@ -137,6 +219,9 @@
 			isa = PBXGroup;
 			children = (
 				821F98392618E048008BC2E1 /* Swift Student Challenge-XCode */,
+				829A9C9A262C5161001B1C78 /* MyPlayground */,
+				829A9CAE262C5246001B1C78 /* SSC */,
+				829A9CBB262C5246001B1C78 /* SSCTests */,
 				821F98382618E048008BC2E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,6 +230,9 @@
 			isa = PBXGroup;
 			children = (
 				821F98372618E048008BC2E1 /* Swift Student Challenge-XCode.app */,
+				829A9C99262C5161001B1C78 /* MyPlayground.framework */,
+				829A9CAD262C5246001B1C78 /* SSC.framework */,
+				829A9CB5262C5246001B1C78 /* SSCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,12 +270,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		829A9C9A262C5161001B1C78 /* MyPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				829A9C9B262C5161001B1C78 /* MyPlayground.h */,
+				829A9C9C262C5161001B1C78 /* Info.plist */,
+			);
+			path = MyPlayground;
+			sourceTree = "<group>";
+		};
+		829A9CAE262C5246001B1C78 /* SSC */ = {
+			isa = PBXGroup;
+			children = (
+				829A9CAF262C5246001B1C78 /* SSC.h */,
+				829A9CB0262C5246001B1C78 /* Info.plist */,
+			);
+			path = SSC;
+			sourceTree = "<group>";
+		};
+		829A9CBB262C5246001B1C78 /* SSCTests */ = {
+			isa = PBXGroup;
+			children = (
+				829A9CBC262C5246001B1C78 /* SSCTests.swift */,
+				829A9CBE262C5246001B1C78 /* Info.plist */,
+			);
+			path = SSCTests;
+			sourceTree = "<group>";
+		};
 		82D4CF0C261B9B20003C794C /* Data */ = {
 			isa = PBXGroup;
 			children = (
 				82D9F833261B55930038F93A /* Hobbies.swift */,
 				82D9F830261B4D1E0038F93A /* Names.swift */,
-				824ECE0726221A41008DB9E2 /* Levels.swift */,
 				8213DC4A26273FD20052049A /* Line.swift */,
 			);
 			path = Data;
@@ -204,6 +318,25 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		829A9C94262C5161001B1C78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829A9C9D262C5161001B1C78 /* MyPlayground.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CA8262C5246001B1C78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829A9CBF262C5246001B1C78 /* SSC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		821F98362618E048008BC2E1 /* Swift Student Challenge-XCode */ = {
 			isa = PBXNativeTarget;
@@ -212,15 +345,73 @@
 				821F98332618E048008BC2E1 /* Sources */,
 				821F98342618E048008BC2E1 /* Frameworks */,
 				821F98352618E048008BC2E1 /* Resources */,
+				829A9CA5262C5161001B1C78 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				829A9C9F262C5161001B1C78 /* PBXTargetDependency */,
+				829A9CC1262C5246001B1C78 /* PBXTargetDependency */,
 			);
 			name = "Swift Student Challenge-XCode";
 			productName = "Swift Student Challenge-XCode";
 			productReference = 821F98372618E048008BC2E1 /* Swift Student Challenge-XCode.app */;
 			productType = "com.apple.product-type.application";
+		};
+		829A9C98262C5161001B1C78 /* MyPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829A9CA2262C5161001B1C78 /* Build configuration list for PBXNativeTarget "MyPlayground" */;
+			buildPhases = (
+				829A9C94262C5161001B1C78 /* Headers */,
+				829A9C95262C5161001B1C78 /* Sources */,
+				829A9C96262C5161001B1C78 /* Frameworks */,
+				829A9C97262C5161001B1C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPlayground;
+			productName = MyPlayground;
+			productReference = 829A9C99262C5161001B1C78 /* MyPlayground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		829A9CAC262C5246001B1C78 /* SSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829A9CC4262C5246001B1C78 /* Build configuration list for PBXNativeTarget "SSC" */;
+			buildPhases = (
+				829A9CA8262C5246001B1C78 /* Headers */,
+				829A9CA9262C5246001B1C78 /* Sources */,
+				829A9CAA262C5246001B1C78 /* Frameworks */,
+				829A9CAB262C5246001B1C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSC;
+			productName = SSC;
+			productReference = 829A9CAD262C5246001B1C78 /* SSC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		829A9CB4262C5246001B1C78 /* SSCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 829A9CC7262C5246001B1C78 /* Build configuration list for PBXNativeTarget "SSCTests" */;
+			buildPhases = (
+				829A9CB1262C5246001B1C78 /* Sources */,
+				829A9CB2262C5246001B1C78 /* Frameworks */,
+				829A9CB3262C5246001B1C78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				829A9CB8262C5246001B1C78 /* PBXTargetDependency */,
+				829A9CBA262C5246001B1C78 /* PBXTargetDependency */,
+			);
+			name = SSCTests;
+			productName = SSCTests;
+			productReference = 829A9CB5262C5246001B1C78 /* SSCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -233,6 +424,16 @@
 				TargetAttributes = {
 					821F98362618E048008BC2E1 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					829A9C98262C5161001B1C78 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					829A9CAC262C5246001B1C78 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					829A9CB4262C5246001B1C78 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 821F98362618E048008BC2E1;
 					};
 				};
 			};
@@ -250,6 +451,9 @@
 			projectRoot = "";
 			targets = (
 				821F98362618E048008BC2E1 /* Swift Student Challenge-XCode */,
+				829A9C98262C5161001B1C78 /* MyPlayground */,
+				829A9CAC262C5246001B1C78 /* SSC */,
+				829A9CB4262C5246001B1C78 /* SSCTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,6 +472,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		829A9C97262C5161001B1C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CAB262C5246001B1C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CB3262C5246001B1C78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,7 +500,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				824ECE0826221A41008DB9E2 /* Levels.swift in Sources */,
 				82189ADD261CE59400DCB0D6 /* SpriteKitClass.swift in Sources */,
 				82D9F82A261B18030038F93A /* IntrestGuide.swift in Sources */,
 				821F5BB8261F8FAD00002453 /* MainMenuView.swift in Sources */,
@@ -296,7 +520,6 @@
 				821F5BC1261F934200002453 /* ViewRouter.swift in Sources */,
 				821F983B2618E048008BC2E1 /* Swift_Student_Challenge_XCodeApp.swift in Sources */,
 				8224973126286A0A0095AB0A /* DialogMenu.swift in Sources */,
-				82FC86B226289E9500F277F4 /* NextLevelScene.swift in Sources */,
 				82149E21262AE0C6001A3797 /* RainBackground.swift in Sources */,
 				824ECDE22621DFE0008DB9E2 /* GameView.swift in Sources */,
 				82189AD0261CBC1100DCB0D6 /* GuidingScene1.swift in Sources */,
@@ -307,7 +530,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		829A9C95262C5161001B1C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CA9262C5246001B1C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829A9CB1262C5246001B1C78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829A9CBD262C5246001B1C78 /* SSCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		829A9C9F262C5161001B1C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829A9C98262C5161001B1C78 /* MyPlayground */;
+			targetProxy = 829A9C9E262C5161001B1C78 /* PBXContainerItemProxy */;
+		};
+		829A9CB8262C5246001B1C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829A9CAC262C5246001B1C78 /* SSC */;
+			targetProxy = 829A9CB7262C5246001B1C78 /* PBXContainerItemProxy */;
+		};
+		829A9CBA262C5246001B1C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 821F98362618E048008BC2E1 /* Swift Student Challenge-XCode */;
+			targetProxy = 829A9CB9262C5246001B1C78 /* PBXContainerItemProxy */;
+		};
+		829A9CC1262C5246001B1C78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 829A9CAC262C5246001B1C78 /* SSC */;
+			targetProxy = 829A9CC0262C5246001B1C78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		821F98442618E050008BC2E1 /* Debug */ = {
@@ -470,6 +738,154 @@
 			};
 			name = Release;
 		};
+		829A9CA3262C5161001B1C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6HNM34F4V2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyPlayground/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JakubSumionka.MyPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829A9CA4262C5161001B1C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6HNM34F4V2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyPlayground/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JakubSumionka.MyPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		829A9CC5262C5246001B1C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6HNM34F4V2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SSC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JakubSumionka.SSC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829A9CC6262C5246001B1C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6HNM34F4V2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SSC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JakubSumionka.SSC;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		829A9CC8262C5246001B1C78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NJ3263MHW;
+				INFOPLIST_FILE = SSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JakubSumionka.SSCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Student Challenge-XCode.app/Swift Student Challenge-XCode";
+			};
+			name = Debug;
+		};
+		829A9CC9262C5246001B1C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8NJ3263MHW;
+				INFOPLIST_FILE = SSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JakubSumionka.SSCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Student Challenge-XCode.app/Swift Student Challenge-XCode";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -487,6 +903,33 @@
 			buildConfigurations = (
 				821F98472618E050008BC2E1 /* Debug */,
 				821F98482618E050008BC2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829A9CA2262C5161001B1C78 /* Build configuration list for PBXNativeTarget "MyPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829A9CA3262C5161001B1C78 /* Debug */,
+				829A9CA4262C5161001B1C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829A9CC4262C5246001B1C78 /* Build configuration list for PBXNativeTarget "SSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829A9CC5262C5246001B1C78 /* Debug */,
+				829A9CC6262C5246001B1C78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		829A9CC7262C5246001B1C78 /* Build configuration list for PBXNativeTarget "SSCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				829A9CC8262C5246001B1C78 /* Debug */,
+				829A9CC9262C5246001B1C78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
